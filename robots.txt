@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marisaelisabete.com.br/sitemap.xml

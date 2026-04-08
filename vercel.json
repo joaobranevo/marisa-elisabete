@@ -1,0 +1,94 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public,max-age=31536000,immutable"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/sobre",
+      "destination": "/sobre/index.html"
+    },
+    {
+      "source": "/projetos",
+      "destination": "/projetos/index.html"
+    },
+    {
+      "source": "/contato",
+      "destination": "/contato/index.html"
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos/index.html"
+    },
+    {
+      "source": "/projetos/apartamento-jr",
+      "destination": "/projetos/apartamento-jr/index.html"
+    },
+    {
+      "source": "/projetos/casa-verde",
+      "destination": "/projetos/casa-verde/index.html"
+    },
+    {
+      "source": "/projetos/escritorio-studio",
+      "destination": "/projetos/escritorio-studio/index.html"
+    },
+    {
+      "source": "/projetos/loft-urbano",
+      "destination": "/projetos/loft-urbano/index.html"
+    },
+    {
+      "source": "/projetos/casa-campestre",
+      "destination": "/projetos/casa-campestre/index.html"
+    },
+    {
+      "source": "/projetos/clinica-bem-estar",
+      "destination": "/projetos/clinica-bem-estar/index.html"
+    },
+    {
+      "source": "/servicos/arquitetura-residencial",
+      "destination": "/servicos/arquitetura-residencial/index.html"
+    },
+    {
+      "source": "/servicos/projetos-comerciais",
+      "destination": "/servicos/projetos-comerciais/index.html"
+    },
+    {
+      "source": "/servicos/interiores",
+      "destination": "/servicos/interiores/index.html"
+    },
+    {
+      "source": "/servicos/visualizacao-3d",
+      "destination": "/servicos/visualizacao-3d/index.html"
+    },
+    {
+      "source": "/servicos/administracao-de-obras",
+      "destination": "/servicos/administracao-de-obras/index.html"
+    },
+    {
+      "source": "/servicos/regularizacao",
+      "destination": "/servicos/regularizacao/index.html"
+    }
+  ]
+}
