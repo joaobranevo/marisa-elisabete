@@ -8,10 +8,6 @@
         {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
         }
       ]
     },
@@ -23,72 +19,6 @@
           "value": "public,max-age=31536000,immutable"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/sobre",
-      "destination": "/sobre/index.html"
-    },
-    {
-      "source": "/projetos",
-      "destination": "/projetos/index.html"
-    },
-    {
-      "source": "/contato",
-      "destination": "/contato/index.html"
-    },
-    {
-      "source": "/servicos",
-      "destination": "/servicos/index.html"
-    },
-    {
-      "source": "/projetos/apartamento-jr",
-      "destination": "/projetos/apartamento-jr/index.html"
-    },
-    {
-      "source": "/projetos/area-conv-van-der-rohe",
-      "destination": "/projetos/area-conv-van-der-rohe/index.html"
-    },
-    {
-      "source": "/projetos/escritorio-cdsg",
-      "destination": "/projetos/escritorio-cdsg/index.html"
-    },
-    {
-      "source": "/projetos/espaco-vinho-e-musica",
-      "destination": "/projetos/espaco-vinho-e-musica/index.html"
-    },
-    {
-      "source": "/projetos/igreja-santa-terezinha",
-      "destination": "/projetos/igreja-santa-terezinha/index.html"
-    },
-    {
-      "source": "/projetos/loja-mc-bijuterias",
-      "destination": "/projetos/loja-mc-bijuterias/index.html"
-    },
-    {
-      "source": "/servicos/arquitetura-residencial",
-      "destination": "/servicos/arquitetura-residencial/index.html"
-    },
-    {
-      "source": "/servicos/projetos-comerciais",
-      "destination": "/servicos/projetos-comerciais/index.html"
-    },
-    {
-      "source": "/servicos/interiores",
-      "destination": "/servicos/interiores/index.html"
-    },
-    {
-      "source": "/servicos/visualizacao-3d",
-      "destination": "/servicos/visualizacao-3d/index.html"
-    },
-    {
-      "source": "/servicos/administracao-de-obras",
-      "destination": "/servicos/administracao-de-obras/index.html"
-    },
-    {
-      "source": "/servicos/regularizacao",
-      "destination": "/servicos/regularizacao/index.html"
     }
   ]
 }
